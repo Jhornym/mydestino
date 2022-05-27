@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/degragado"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="302dp"
+        android:layout_height="94dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="605dp"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="56dp"
+        tools:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="536dp"
+        android:text="Te Da La Bienvenida"
+        android:textColor="#090909"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <TextView
+        android:id="@+id/text"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="449dp"
+        android:text="ENCUENTRA CON NOSOTROS MARAVILLOSOS LUGARES DE LOS CUALES JAMAS TE VAS A OLVIDAR, entre ellos conoce:"
+        android:textColor="#121111"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+
+    <ImageView
+        android:id="@+id/imagePue"
+        android:layout_width="116dp"
+        android:layout_height="108dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="179dp"
+        app:srcCompat="@drawable/pueblito" />
+
+    <ImageView
+        android:id="@+id/imageRes"
+        android:layout_width="116dp"
+        android:layout_height="108dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="257dp"
+        android:layout_marginBottom="320dp"
+        app:srcCompat="@drawable/marga" />
+
+    <ImageView
+        android:id="@+id/imageHo"
+        android:layout_width="116dp"
+        android:layout_height="108dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="257dp"
+        android:layout_marginBottom="167dp"
+        app:srcCompat="@drawable/popa" />
+
+    <ImageView
+        android:id="@+id/imageGast"
+        android:layout_width="117dp"
+        android:layout_height="117dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="312dp"
+        app:srcCompat="@drawable/pp" />
+
+    <TextView
+        android:id="@+id/textRest"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="239dp"
+        android:layout_marginBottom="280dp"
+        android:text="restaurantes"
+        android:textColor="#070707" />
+
+    <TextView
+        android:id="@+id/textGast"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="285dp"
+        android:text="gastronomia"
+        android:textColor="#0B0B0B" />
+
+    <TextView
+        android:id="@+id/textHo"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="244dp"
+        android:layout_marginBottom="143dp"
+        android:text="hoteles"
+        android:textColor="#0C0C0C" />
+
+    <TextView
+        android:id="@+id/textPue"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="145dp"
+        android:text="Turismo"
+        android:textColor="#070707" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="68dp"
+        android:background="@drawable/boton_redondo"
+        android:text="iniciar" />
+
+</RelativeLayout>
